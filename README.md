@@ -8,11 +8,11 @@ This app will use the Riot’s API to collect data on a jungle player's first cl
 The initial plan of this app was to have it be exclusively for the practice tool. However, it seems as though riot does not support that so it will now be built for normal draft games. I am limiting it to normal draft for competitive integrity. Although I will not include any ranking system, the sheer act of quantifying information and allowing people to see it will push them to be more competitive. In the “How” section it can be seen what actions will disqualify a run but, sometimes these are the right actions to take in a game and I don't want players to not do them or throw over some silly number collection app.
 ## How
 Here is a step by step of how the Riot API will be used in this app:
-Find when a game is started
-Find the game type
-Find if the player with the app is playing jungle
-Find the players name, champion, runes, region and other relevant data detailed earlier
-On loading into the game ensure the player clears all 6 of their own camps without engaging in any player combat, counter jungling, or using a non smite summoner spell (this is why it wouldn't be allowed in ranked)
+Find when a game is started,
+Find the game type,
+Find if the player with the app is playing jungle,
+Find the players name, champion, runes, region and other relevant data detailed earlier,
+On loading into the game ensure the player clears all 6 of their own camps without engaging in any player combat, counter jungling, or using a non smite summoner spell (this is why it wouldn't be allowed in ranked),
 Log data into sql db and stop any kind of tracking 
 
 
